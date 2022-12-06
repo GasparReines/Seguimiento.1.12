@@ -8,8 +8,9 @@ body {
 }
 
 header {
-    background: rgb(162,5,10);
-    background: linear-gradient(90deg, rgba(162,5,10,1) 0%, rgba(0,0,0,1) 100%);;
+    background: rgb(162, 5, 10);
+    background: linear-gradient(90deg, rgba(162, 5, 10, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    ;
     padding: 16px 0;
     text-align: center;
 }
@@ -50,9 +51,11 @@ nav {
     flex-direction: column;
     width: 10%;
 }
-.general{
+
+.general {
     text-align: center;
 }
+
 .tipos {
     display: flex;
     justify-content: space-between;
@@ -64,9 +67,26 @@ nav {
     border-radius: 5px;
     width: 20%;
     text-align: center;
-    padding:  px;
+    padding: px;
     border-radius: border-box;
 }
+
 .tipo h4 {
+    color: aliceblue;
+}
+.turbina {
+    border: 1px solid aliceblue;
+    border-radius: 10px;
+    padding: 16px;
+    margin: 16px 0;
+    display: flex;
+    gap: 32px;
+    align-items: center;
+
+}
+.turbina:nth-child(even){
+    flex-direction: row-reverse;
+}
+.turbina h4, .turbina p {
     color: aliceblue;
 }
