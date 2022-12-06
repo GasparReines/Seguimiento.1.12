@@ -1,35 +1,45 @@
-body{
+body {
     font-family: 'Dosis', sans-serif;
     background-color: black;
 }
-.medio{
+
+.medio {
     display: flex;
 }
-header{
-    background: rgb(166,0,0);
-    background: linear-gradient(90deg, rgba(166,0,0,1) 0%, rgba(0,0,0,1) 100%);
+
+header {
+    background: rgb(162,5,10);
+    background: linear-gradient(90deg, rgba(162,5,10,1) 0%, rgba(0,0,0,1) 100%);;
     padding: 16px 0;
+    text-align: center;
 }
-header h1{
-    color:rgb(166,0,0);
+
+header p {
+    color: rgb(166, 0, 0);
     font-size: 40px;
     font-weight: 100;
     font-style: italic;
-    display: inline-block;
-    position: center ;
+    position: center;
     bottom: 35px;
     margin-left: 40%;
 }
-main{
+
+main {
     background-color: black;
     width: 85%;
 }
-main p, main h1, main h3, main ul h2, main ul p{
+
+main p,
+main h1,
+main h3,
+main ul p {
     color: aliceblue;
 }
-nav{
+
+nav {
     background-color: black;
 }
+
 nav ul a {
     color: grey;
 }
@@ -39,4 +49,24 @@ nav {
     justify-content: space-evenly;
     flex-direction: column;
     width: 10%;
+}
+.general{
+    text-align: center;
+}
+.tipos {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.tipo {
+    border: 1px solid aliceblue;
+    border-radius: 5px;
+    width: 20%;
+    text-align: center;
+    padding:  px;
+    border-radius: border-box;
+}
+.tipo h4 {
+    color: aliceblue;
 }
