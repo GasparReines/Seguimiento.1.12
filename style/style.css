@@ -24,6 +24,9 @@ header p {
     bottom: 35px;
     margin-left: 40%;
 }
+.holder{
+    background-color: rgb(166, 0, 0);
+}
 
 main {
     background-color: black;
@@ -36,22 +39,23 @@ main h3,
 main ul p {
     color: aliceblue;
 }
-
-nav {
-    background-color: black;
-}
-
 nav ul a {
     color: grey;
 }
 
 nav {
-    display: flex;
-    justify-content: space-evenly;
+    display: block;
+    justify-content: space-between;
     flex-direction: column;
     width: 10%;
+    background-color: black;
 }
-
+nav ul {
+    border: 1px solid aliceblue;
+    border-radius: 5px;
+    background-color: aliceblue;
+    border-radius: border-box;
+}
 .general {
     text-align: center;
 }
@@ -67,7 +71,6 @@ nav {
     border-radius: 5px;
     width: 20%;
     text-align: center;
-    padding: px;
     border-radius: border-box;
 }
 
@@ -84,6 +87,11 @@ nav {
     align-items: center;
 
 }
+.turbina img{
+    border-radius: 15px;
+    display: block;
+    max-width: 225px;
+}
 .turbina:nth-child(even){
     flex-direction: row-reverse;
 }
@@ -97,8 +105,11 @@ nav {
     display: flex;
     justify-content: space-between;
 }
+.moto img{
+    border-radius: 30%;
+    max-width: 60%;
 
-
+}
 .moto {
     border: 1px solid aliceblue;
     border-radius: 5px;
@@ -106,4 +117,62 @@ nav {
     text-align: center;
     padding: px;
     border-radius: border-box;
+}
+.cols{
+    display: flex;
+
+}
+.columna {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 12px;
+}
+
+.columna.left{
+    border-right: 3px solid #539af5;
+}
+.columna.right{
+    float:right;
+}
+.coumna.right p {
+    font-size: 18px;
+}
+
+.columna.right ul li {
+    font-size: 12.8px;
+    color: aliceblue;
+}
+
+.formulario label {
+    vertical-align: top;
+    width: 20%;
+    display: inline-block;
+}
+
+.formulario input,
+.formulario textarea {
+    background-color: lightgrey;
+    border-radius: 5px;
+    border: 1px solid darkblue;
+    padding: 6.4px 9.8px;
+    font-size: 12.8px;
+    width: 70%;
+}
+
+.formulario input[type="submit"] {
+    background-color: lightblue;
+    box-shadow: 0 0 16px lightskyblue;
+    color: white;
+    font-size: 16px;
+    width: auto;
+    cursor: pointer;
+}
+
+.formulario textarea {
+    height: 160px;
+    resize: none;
+}
+
+.formulario .acciones {
+    text-align: center;
 }
