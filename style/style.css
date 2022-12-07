@@ -90,3 +90,20 @@ nav {
 .turbina h4, .turbina p {
     color: aliceblue;
 }
+.moto h4 {
+    color: aliceblue;
+}
+.motos {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.moto {
+    border: 1px solid aliceblue;
+    border-radius: 5px;
+    width: 18%;
+    text-align: center;
+    padding: px;
+    border-radius: border-box;
+}
